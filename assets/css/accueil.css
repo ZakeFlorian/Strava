@@ -20,10 +20,7 @@ h1{
     color: orange;
     float: right;
 }
-.Titre{
-    display: inline-block;
-    justify-content: center;
-}
+
 .plus{
     padding: 20px;
 }
@@ -38,7 +35,8 @@ h1{
 }
 .container{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    float: left;
 }
 .stat{
     margin: 5px;
@@ -50,6 +48,7 @@ h3{
 }
 .distance,.dénivelé{
     border-right: 1px solid;
+    border-color: gray;
 }
 .gold{
     color: gold;
